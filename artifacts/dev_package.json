@@ -1,0 +1,76 @@
+{
+	"id": "e952a971-dbf2-462f-bfb5-5fa36f2e35e0",
+	"createdAt": "2024-06-06T09:01:04.000Z",
+	"createdBy": "admin",
+	"git": {
+		"remote": "https://github.com/neptune-software-marketplace/neptunesoftware-dxp-abb-offline-example.git"
+	},
+	"name": "neptunesoftware-dxp-abb-offline-example",
+	"description": null,
+	"ver": "24.06.06.1154",
+	"enableCICD": true,
+	"apps": [
+		{
+			"id": "7f41afe5-e17d-4be0-a005-8b49387b4d5a",
+			"application": "offline_example_app",
+			"title": "",
+			"description": "",
+			"package": {
+				"id": "e952a971-dbf2-462f-bfb5-5fa36f2e35e0"
+			}
+		}
+	],
+	"api": [
+		{
+			"id": "d7f3388c-8d5c-42d5-8228-939083608185",
+			"name": "offline-example-formdata",
+			"description": null,
+			"apiGroup": "dd43b572-fadf-4d91-a6bf-84c9a88da6ef"
+		},
+		{
+			"id": "9e3b990e-fc46-425e-b01b-9ec64a1607ca",
+			"name": "offline-example-weather",
+			"description": null,
+			"apiGroup": "dd43b572-fadf-4d91-a6bf-84c9a88da6ef"
+		}
+	],
+	"odataSource": [],
+	"odataMock": [],
+	"dictionary": [
+		{
+			"id": "2e1783e8-f37e-41dd-9691-403a6396b449",
+			"name": "offline-example-formdata",
+			"description": null
+		}
+	],
+	"jsclass": [],
+	"jsscript_group": [],
+	"theme": [],
+	"pdf": [],
+	"rulesengine": [],
+	"reports": [],
+	"api_authentication": [],
+	"api_group": [
+		{
+			"id": "dd43b572-fadf-4d91-a6bf-84c9a88da6ef",
+			"name": "offline-example-apis",
+			"description": null
+		}
+	],
+	"tile": [],
+	"category": [],
+	"launchpad": [],
+	"certificates": [],
+	"role": [],
+	"systems": [],
+	"doc": [],
+	"wf_notifications": [],
+	"department": [],
+	"script_scheduler": [],
+	"wf_definition": [],
+	"connector": [],
+	"events": [],
+	"code_snippets": [],
+	"wf_determination": [],
+	"wf_taskaction": []
+}

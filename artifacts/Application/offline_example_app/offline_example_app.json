@@ -1,0 +1,807 @@
+{
+	"id": "7f41afe5-e17d-4be0-a005-8b49387b4d5a",
+	"createdAt": "2024-06-06T10:18:06.000Z",
+	"createdBy": "admin",
+	"objects": [
+		{
+			"fieldNo": "eec57b4a-1369-4657-b726-c3da2a9a7bd1",
+			"fieldName": "App",
+			"fieldParent": 0,
+			"fieldType": "sap.m.App",
+			"script": "",
+			"customComponent": false,
+			"request": [],
+			"response": [],
+			"attributes": [],
+			"data": [
+				{
+					"fieldNo": "46ac22c6-2bb6-455b-ec42-fcd664f2d35d",
+					"fieldName": "PageWeather",
+					"fieldParent": "eec57b4a-1369-4657-b726-c3da2a9a7bd1",
+					"fieldType": "sap.m.Page",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "showSubHeader",
+							"grouping": "Properties",
+							"value": "false",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "showHeader",
+							"grouping": "Properties",
+							"value": "false",
+							"script": "",
+							"translation": []
+						}
+					],
+					"data": [
+						{
+							"fieldNo": "5aec8ff4-47cd-4ad2-d614-9b76aceecc4a",
+							"fieldName": "WeatherForm",
+							"fieldParent": "46ac22c6-2bb6-455b-ec42-fcd664f2d35d",
+							"fieldType": "sap.ui.layout.form.SimpleForm",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "editable",
+									"grouping": "Properties",
+									"value": "true",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "1969167e-8786-4792-b34e-d3467c06486a",
+									"fieldName": "LabelCountry",
+									"fieldParent": "5aec8ff4-47cd-4ad2-d614-9b76aceecc4a",
+									"fieldType": "sap.m.Label",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "text",
+											"grouping": "Properties",
+											"value": "Country Code",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "7beda881-8f99-4295-f828-88eebfd559dd",
+									"fieldName": "TextCountry",
+									"fieldParent": "5aec8ff4-47cd-4ad2-d614-9b76aceecc4a",
+									"fieldType": "sap.m.Text",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [],
+									"data": []
+								},
+								{
+									"fieldNo": "c0eb301a-9c87-412a-8c0a-89df1be9fd4f",
+									"fieldName": "LabelLat",
+									"fieldParent": "5aec8ff4-47cd-4ad2-d614-9b76aceecc4a",
+									"fieldType": "sap.m.Label",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "text",
+											"grouping": "Properties",
+											"value": "Latitude",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "da44a751-0294-4953-e24a-8f66b0a52248",
+									"fieldName": "TextLat",
+									"fieldParent": "5aec8ff4-47cd-4ad2-d614-9b76aceecc4a",
+									"fieldType": "sap.m.Text",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [],
+									"data": []
+								},
+								{
+									"fieldNo": "389c28e9-e4b0-4851-9be8-dec30120f983",
+									"fieldName": "LabelLon",
+									"fieldParent": "5aec8ff4-47cd-4ad2-d614-9b76aceecc4a",
+									"fieldType": "sap.m.Label",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "text",
+											"grouping": "Properties",
+											"value": "Longitude",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "ea41c1ae-10f0-49c0-afb5-f14e1a7df11e",
+									"fieldName": "TextLon",
+									"fieldParent": "5aec8ff4-47cd-4ad2-d614-9b76aceecc4a",
+									"fieldType": "sap.m.Text",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [],
+									"data": []
+								},
+								{
+									"fieldNo": "1a43c5a9-e267-49bd-b09b-a19428a154eb",
+									"fieldName": "LabelDesc",
+									"fieldParent": "5aec8ff4-47cd-4ad2-d614-9b76aceecc4a",
+									"fieldType": "sap.m.Label",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "text",
+											"grouping": "Properties",
+											"value": "Description",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "1395b766-38d7-4598-cafc-b4cc6a8bc886",
+									"fieldName": "TextDesc",
+									"fieldParent": "5aec8ff4-47cd-4ad2-d614-9b76aceecc4a",
+									"fieldType": "sap.m.Text",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [],
+									"data": []
+								},
+								{
+									"fieldNo": "a832ab80-484b-4dbb-d5fe-9a2272a0449f",
+									"fieldName": "LabelTemp",
+									"fieldParent": "5aec8ff4-47cd-4ad2-d614-9b76aceecc4a",
+									"fieldType": "sap.m.Label",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "text",
+											"grouping": "Properties",
+											"value": "Temperature",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "ba3a1cde-f551-4c82-fab2-0dd1bb8c2144",
+									"fieldName": "TextTemp",
+									"fieldParent": "5aec8ff4-47cd-4ad2-d614-9b76aceecc4a",
+									"fieldType": "sap.m.Text",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [],
+									"data": []
+								}
+							]
+						},
+						{
+							"fieldNo": "b5dec254-2ab3-4129-c634-b2b418b95717",
+							"fieldName": "BarPagePicture",
+							"fieldParent": "46ac22c6-2bb6-455b-ec42-fcd664f2d35d",
+							"fieldType": "sap.m.Bar",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "position",
+									"grouping": "Parent",
+									"value": "setFooter",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "8dad152d-2bf0-4b96-8318-e87431f1ca52",
+									"fieldName": "MiddlePageWeather",
+									"fieldParent": "b5dec254-2ab3-4129-c634-b2b418b95717",
+									"fieldType": "neptune.BarContent",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "position",
+											"grouping": "Parent",
+											"value": "ContentMiddle",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "07686ae0-b6ad-42d3-9599-6e35ba5c76b4",
+											"fieldName": "ButtonCacheWeather",
+											"fieldParent": "8dad152d-2bf0-4b96-8318-e87431f1ca52",
+											"fieldType": "sap.m.Button",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Get weather",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "icon",
+													"grouping": "Properties",
+													"value": "sap-icon://weather-proofing",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "press",
+													"grouping": "Events",
+													"value": "Anonymous Function",
+													"script": "file://event/sap.m.Button/ButtonCacheWeather/press.js",
+													"language": "javascript",
+													"translation": []
+												}
+											],
+											"data": []
+										}
+									]
+								},
+								{
+									"fieldNo": "ccc31846-0352-4e13-a600-59685667957f",
+									"fieldName": "BarContentPageWeather",
+									"fieldParent": "b5dec254-2ab3-4129-c634-b2b418b95717",
+									"fieldType": "neptune.BarContent",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "position",
+											"grouping": "Parent",
+											"value": "ContentRight",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "62014ff8-70f4-45f3-8bae-0fd79d6e70e0",
+											"fieldName": "ButtonToFormPage",
+											"fieldParent": "ccc31846-0352-4e13-a600-59685667957f",
+											"fieldType": "sap.m.Button",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Form Page",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "icon",
+													"grouping": "Properties",
+													"value": "sap-icon://fa-solid/arrow-right",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "press",
+													"grouping": "Events",
+													"value": "App.to(PageForm);",
+													"script": "App.to(PageForm);",
+													"translation": []
+												}
+											],
+											"data": []
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"fieldNo": "9ac5d31f-1a31-4d9e-faf9-1980babdebb4",
+					"fieldName": "PageForm",
+					"fieldParent": "eec57b4a-1369-4657-b726-c3da2a9a7bd1",
+					"fieldType": "sap.m.Page",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "showSubHeader",
+							"grouping": "Properties",
+							"value": "false",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "showHeader",
+							"grouping": "Properties",
+							"value": "false",
+							"script": "",
+							"translation": []
+						}
+					],
+					"data": [
+						{
+							"fieldNo": "aacee3c0-365e-4298-cbb6-49e33e27a03d",
+							"fieldName": "SimpleForm",
+							"fieldParent": "9ac5d31f-1a31-4d9e-faf9-1980babdebb4",
+							"fieldType": "sap.ui.layout.form.SimpleForm",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "editable",
+									"grouping": "Properties",
+									"value": "true",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "0f14db7f-314e-445d-b9b1-ae7084339574",
+									"fieldName": "LabelName",
+									"fieldParent": "aacee3c0-365e-4298-cbb6-49e33e27a03d",
+									"fieldType": "sap.m.Label",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "text",
+											"grouping": "Properties",
+											"value": "Title",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "2a4ff17f-0af3-48cc-f186-a982244cb1fa",
+									"fieldName": "InputName",
+									"fieldParent": "aacee3c0-365e-4298-cbb6-49e33e27a03d",
+									"fieldType": "sap.m.Input",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [],
+									"data": []
+								},
+								{
+									"fieldNo": "4db852da-ffeb-4631-9517-258349015274",
+									"fieldName": "LabelNote",
+									"fieldParent": "aacee3c0-365e-4298-cbb6-49e33e27a03d",
+									"fieldType": "sap.m.Label",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "text",
+											"grouping": "Properties",
+											"value": "Note",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "a073de9b-8e5c-4d0a-b938-494967fdfe6f",
+									"fieldName": "TextAreaNote",
+									"fieldParent": "aacee3c0-365e-4298-cbb6-49e33e27a03d",
+									"fieldType": "sap.m.TextArea",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [],
+									"data": []
+								}
+							]
+						},
+						{
+							"fieldNo": "5c779ca3-a200-4d66-d90b-77dc9d24acdf",
+							"fieldName": "BarPageForm",
+							"fieldParent": "9ac5d31f-1a31-4d9e-faf9-1980babdebb4",
+							"fieldType": "sap.m.Bar",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "position",
+									"grouping": "Parent",
+									"value": "setFooter",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "c5ddbd43-499f-41e3-d127-4d590bb7353b",
+									"fieldName": "MiddleBarPageForm",
+									"fieldParent": "5c779ca3-a200-4d66-d90b-77dc9d24acdf",
+									"fieldType": "neptune.BarContent",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "position",
+											"grouping": "Parent",
+											"value": "ContentMiddle",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "6378b11d-d026-4428-97ab-8021884b568e",
+											"fieldName": "ButtonCacheForm",
+											"fieldParent": "c5ddbd43-499f-41e3-d127-4d590bb7353b",
+											"fieldType": "sap.m.Button",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Cache note",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "icon",
+													"grouping": "Properties",
+													"value": "sap-icon://save",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "press",
+													"grouping": "Events",
+													"value": "Anonymous Function",
+													"script": "file://event/sap.m.Button/ButtonCacheForm/press.js",
+													"language": "javascript",
+													"translation": []
+												}
+											],
+											"data": []
+										}
+									]
+								},
+								{
+									"fieldNo": "63fcf2ab-9ba2-46ec-9896-0d298a8beafa",
+									"fieldName": "BarContentBarPageForm",
+									"fieldParent": "5c779ca3-a200-4d66-d90b-77dc9d24acdf",
+									"fieldType": "neptune.BarContent",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "position",
+											"grouping": "Parent",
+											"value": "ContentRight",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "96086226-9275-41e3-bf9b-05dd98eb1161",
+											"fieldName": "ButtonToPageWeather",
+											"fieldParent": "63fcf2ab-9ba2-46ec-9896-0d298a8beafa",
+											"fieldType": "sap.m.Button",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Picture Page",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "icon",
+													"grouping": "Properties",
+													"value": "sap-icon://fa-solid/arrow-left",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "press",
+													"grouping": "Events",
+													"value": "App.to(PageWeather);",
+													"script": "App.to(PageWeather);",
+													"translation": []
+												}
+											],
+											"data": []
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"fieldNo": 99999,
+			"data": [
+				{
+					"fieldNo": "cdc64ecd-ac5e-4b33-ae4a-8858a60f99b3",
+					"fieldName": "Javascript",
+					"fieldParent": 99999,
+					"fieldType": "neptune.Script",
+					"script": "file://script/neptune.Script/Javascript.js",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
+				},
+				{
+					"fieldNo": "e9a632ea-e808-4651-ebc9-76b0817ed3a8",
+					"fieldName": "WeatherData",
+					"fieldParent": 99999,
+					"fieldType": "neptune.model",
+					"script": "",
+					"customComponent": false,
+					"bindingValue": "Generic Array",
+					"bindingType": "h",
+					"bindingSource": "P9",
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "cacheInitLoadFinished",
+							"grouping": "Events",
+							"value": "Anonymous Function",
+							"script": "file://event/neptune.model/WeatherData/cacheInitLoadFinished.script",
+							"translation": []
+						},
+						{
+							"attribute": "setCacheType",
+							"grouping": "Model",
+							"value": "IndexedDB",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "setEnableCache",
+							"grouping": "Model",
+							"value": "true",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "setInitLoad",
+							"grouping": "Model",
+							"value": "cache",
+							"script": "",
+							"translation": []
+						}
+					],
+					"data": []
+				},
+				{
+					"fieldNo": "fb207d86-357a-48c0-c405-fd66f4d7ea81",
+					"fieldName": "FormData",
+					"fieldParent": 99999,
+					"fieldType": "neptune.model",
+					"script": "",
+					"customComponent": false,
+					"bindingValue": "Generic Array",
+					"bindingType": "h",
+					"bindingSource": "P9",
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "setCacheType",
+							"grouping": "Model",
+							"value": "IndexedDB",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "setEnableCache",
+							"grouping": "Model",
+							"value": "true",
+							"script": "",
+							"translation": []
+						}
+					],
+					"data": []
+				},
+				{
+					"fieldNo": "69b8f5f2-e7d4-4e2b-f70d-67a92e58b6bb",
+					"fieldName": "GetWeather",
+					"fieldParent": 99999,
+					"fieldType": "neptune.restapi",
+					"script": "",
+					"customComponent": false,
+					"restSource": "9e3b990e-fc46-425e-b01b-9ec64a1607ca",
+					"restOperation": "198e9b05-7fa7-48b1-b8cc-3f9d922e24cb",
+					"request": [],
+					"response": [
+						{
+							"status": "200",
+							"dataId": "d9802835-d86a-45b0-bf55-757a7e7f3bdd",
+							"modelFieldNo": "e9a632ea-e808-4651-ebc9-76b0817ed3a8"
+						}
+					],
+					"attributes": [
+						{
+							"attribute": "ajaxSuccess",
+							"grouping": "Events",
+							"value": "sap.m.MessageToast.show(\"Weather data cached. Go offline to see the results.\");",
+							"script": "sap.m.MessageToast.show(\"Weather data cached. Go offline to see the results.\");",
+							"translation": []
+						}
+					],
+					"data": []
+				},
+				{
+					"fieldNo": "d865212a-fe3e-4134-d325-b4d4e93c345e",
+					"fieldName": "SaveNote",
+					"fieldParent": 99999,
+					"fieldType": "neptune.restapi",
+					"script": "",
+					"customComponent": false,
+					"restSource": "d7f3388c-8d5c-42d5-8228-939083608185",
+					"restOperation": "5f8e60d4-8686-4a5a-af74-9217dc64c86c",
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "ajaxSuccess",
+							"grouping": "Events",
+							"value": "Anonymous Function",
+							"script": "file://event/neptune.restapi/SaveNote/ajaxSuccess.js",
+							"language": "javascript",
+							"translation": []
+						}
+					],
+					"data": []
+				}
+			]
+		},
+		{
+			"fieldNo": 99998,
+			"data": []
+		}
+	],
+	"componentInterface": [],
+	"ver": "24.06.06.1152",
+	"application": "offline_example_app",
+	"title": "",
+	"description": "",
+	"enableFileStorage": false,
+	"enableManifest": false,
+	"enableStylesheet": false,
+	"enableObfuscate": false,
+	"onlyRunLaunchpad": false,
+	"disabled": false,
+	"loadLaunchpadCode": null,
+	"loadApplicationCode": null,
+	"appType": "A",
+	"ui5_m": true,
+	"ui5_f": false,
+	"ui5_table": false,
+	"ui5_tnt": false,
+	"ui5_uxap": false,
+	"ui5_chart": false,
+	"ui5_theme": "sap_horizon",
+	"ui5_version": "",
+	"ui5_language": null,
+	"ui5_url": "",
+	"cus_theme": "",
+	"css": "",
+	"compiledCss": null,
+	"header": "",
+	"manifest": "",
+	"globalScript": null,
+	"deleted": false,
+	"libHighchart": false,
+	"libHighmap": false,
+	"publicAccess": false,
+	"ui5_bootstrap": false,
+	"ui5_ionic": false,
+	"useV2AppHandler": false,
+	"compilerTarget": 3,
+	"tabWidth": null,
+	"printWidth": null,
+	"generateVersionOnActivation": false,
+	"activationHistoryCount": 0,
+	"apis": [
+		{
+			"id": "d7f3388c-8d5c-42d5-8228-939083608185",
+			"name": "offline-example-formdata",
+			"ver": "24.06.06.1151"
+		},
+		{
+			"id": "9e3b990e-fc46-425e-b01b-9ec64a1607ca",
+			"name": "offline-example-weather",
+			"ver": "24.06.06.1152"
+		}
+	],
+	"package": "e952a971-dbf2-462f-bfb5-5fa36f2e35e0"
+}

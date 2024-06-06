@@ -1,0 +1,6 @@
+if (AppCache.isOffline) {
+    ButtonCacheWeather.setEnabled(false);
+    displayWeather();
+} else {
+    ButtonCacheWeather.setEnabled(true);
+}

@@ -1,0 +1,154 @@
+{
+	"id": "d7f3388c-8d5c-42d5-8228-939083608185",
+	"createdAt": "2024-06-03T12:43:21.000Z",
+	"createdBy": "admin",
+	"auth": [],
+	"endpoints": [],
+	"paths": [
+		{
+			"id": "5f8e60d4-8686-4a5a-af74-9217dc64c86c",
+			"path": "/formdata",
+			"method": "PUT",
+			"headers": [],
+			"parameters": [],
+			"content": [
+				{
+					"objectTyoe": "array",
+					"name": "formdata"
+				}
+			],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "formdata"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		}
+	],
+	"definitions": [
+		{
+			"id": "513af3a7-b0c3-44fb-b7ad-2b03e324ba1a",
+			"name": "formdata",
+			"properties": [
+				{
+					"id": "9a2048aa-e02f-4a23-a6d6-f2c27ea22002",
+					"parent": "",
+					"name": "id",
+					"description": "Unique record ID",
+					"objectType": "string"
+				},
+				{
+					"id": "e956cc7d-5339-41c2-8909-b6c04d577202",
+					"parent": "",
+					"name": "name",
+					"objectType": "string"
+				},
+				{
+					"id": "b609f8cb-e896-49d3-b25b-a4d48a0d8b69",
+					"parent": "",
+					"name": "note",
+					"objectType": "string"
+				},
+				{
+					"id": "abde8b71-d56e-41d3-941e-f90107df45b2",
+					"parent": "",
+					"name": "createdAt",
+					"description": "Date when record was created",
+					"objectType": "number"
+				},
+				{
+					"id": "30b96207-da2a-490a-96dc-fe55ee5ee541",
+					"parent": "",
+					"name": "createdBy",
+					"description": "Created by",
+					"objectType": "string"
+				},
+				{
+					"id": "b2c119f4-fa1c-495c-80af-66d887f489b1",
+					"parent": "",
+					"name": "updatedAt",
+					"description": "Date when record was updated",
+					"objectType": "number"
+				},
+				{
+					"id": "dd095017-83d4-48e0-85f7-c8f3553128d9",
+					"parent": "",
+					"name": "updatedBy",
+					"description": "Updated by",
+					"objectType": "string"
+				}
+			]
+		},
+		{
+			"id": "58e122c3-6cb0-4c18-bc57-2ce683ee9a15",
+			"name": "Error",
+			"properties": [
+				{
+					"id": "beb5ae09-4bdb-4e83-8c4a-962776831c46",
+					"parent": "",
+					"name": "status",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "e29321d6-aee3-4d84-a306-636131b02c83",
+					"parent": "",
+					"name": "message",
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				}
+			]
+		}
+	],
+	"documentation": [],
+	"name": "offline-example-formdata",
+	"endpoint": "/api/entity",
+	"ver": "24.06.06.1151",
+	"version": null,
+	"description": null,
+	"mediaType": "application/json",
+	"securitySchemes": null,
+	"swaggerURI": null,
+	"swaggerSystem": null,
+	"apiType": "table",
+	"about": null,
+	"enableProxy": false,
+	"forwardProxy": null,
+	"restrictAccess": false,
+	"enableTrace": false,
+	"enableIDE": true,
+	"internalAPI": false,
+	"isPublic": false,
+	"tlsAllowUntrusted": false,
+	"useOwnProcess": false,
+	"package": "e952a971-dbf2-462f-bfb5-5fa36f2e35e0",
+	"apiGroup": "dd43b572-fadf-4d91-a6bf-84c9a88da6ef",
+	"apiFormat": 0,
+	"roles": []
+}
