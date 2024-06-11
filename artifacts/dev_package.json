@@ -7,7 +7,7 @@
 	},
 	"name": "neptunesoftware-dxp-abb-offline-example",
 	"description": null,
-	"ver": "24.06.06.1155",
+	"ver": "24.06.11.1115",
 	"enableCICD": true,
 	"apps": [
 		{
@@ -77,9 +77,32 @@
 			"description": null
 		}
 	],
-	"tile": [],
-	"category": [],
-	"launchpad": [],
+	"tile": [
+		{
+			"id": "fd66d386-ed52-425f-a6c4-3539f057e6bd",
+			"description": null,
+			"name": "offline-example-tile-form-and-data"
+		},
+		{
+			"id": "566f5294-00c9-46cd-8d1a-07098de915c8",
+			"description": null,
+			"name": "offline-example-tile-base64"
+		}
+	],
+	"category": [
+		{
+			"id": "0b59be11-1169-455f-be6c-0fc15ad8a56b",
+			"description": null,
+			"name": "offline-example-tilegroup"
+		}
+	],
+	"launchpad": [
+		{
+			"id": "9b4aca23-b3f9-45df-9257-201d03888321",
+			"name": "offline-example-launchpad",
+			"description": null
+		}
+	],
 	"certificates": [],
 	"role": [],
 	"systems": [],
