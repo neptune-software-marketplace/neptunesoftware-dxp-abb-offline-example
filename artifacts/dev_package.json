@@ -7,9 +7,18 @@
 	},
 	"name": "neptunesoftware-dxp-abb-offline-example",
 	"description": null,
-	"ver": "24.06.06.1154",
+	"ver": "24.06.06.1155",
 	"enableCICD": true,
 	"apps": [
+		{
+			"id": "8bf541a3-c08d-4cf5-8ec5-60e84d4452f0",
+			"application": "offline_example_app_base64",
+			"title": "",
+			"description": "",
+			"package": {
+				"id": "e952a971-dbf2-462f-bfb5-5fa36f2e35e0"
+			}
+		},
 		{
 			"id": "7f41afe5-e17d-4be0-a005-8b49387b4d5a",
 			"application": "offline_example_app",
@@ -32,11 +41,22 @@
 			"name": "offline-example-weather",
 			"description": null,
 			"apiGroup": "dd43b572-fadf-4d91-a6bf-84c9a88da6ef"
+		},
+		{
+			"id": "62b5c1cd-ebb5-4e4c-abcc-c95ae3dcea25",
+			"name": "offline-example-picture",
+			"description": null,
+			"apiGroup": "dd43b572-fadf-4d91-a6bf-84c9a88da6ef"
 		}
 	],
 	"odataSource": [],
 	"odataMock": [],
 	"dictionary": [
+		{
+			"id": "c68df118-c7c5-48f2-93bf-6cc0b1f16d4c",
+			"name": "offline-example-picture",
+			"description": null
+		},
 		{
 			"id": "2e1783e8-f37e-41dd-9691-403a6396b449",
 			"name": "offline-example-formdata",

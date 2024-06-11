@@ -1,0 +1,24 @@
+{
+	"id": "c68df118-c7c5-48f2-93bf-6cc0b1f16d4c",
+	"createdAt": "2024-06-11T10:27:38.000Z",
+	"createdBy": "admin",
+	"fields": [
+		{
+			"id": "daf6dc91-e614-44d1-dc17-6df022801d7c",
+			"fieldName": "base64",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "offline-example-picture",
+	"description": null,
+	"ver": "24.06.11.1113",
+	"enableAudit": false,
+	"includeDataInPackage": true,
+	"package": "e952a971-dbf2-462f-bfb5-5fa36f2e35e0",
+	"rolesRead": [],
+	"rolesWrite": []
+}
