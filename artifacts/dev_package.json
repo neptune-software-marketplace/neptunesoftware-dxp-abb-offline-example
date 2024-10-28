@@ -7,7 +7,7 @@
 	},
 	"name": "neptunesoftware-dxp-abb-offline-example",
 	"description": null,
-	"ver": "24.06.11.1115",
+	"ver": "24.10.28.0953",
 	"enableCICD": true,
 	"apps": [
 		{
