@@ -712,8 +712,9 @@
 						{
 							"attribute": "ajaxSuccess",
 							"grouping": "Events",
-							"value": "sap.m.MessageToast.show(\"Weather data cached. Go offline to see the results.\");",
-							"script": "sap.m.MessageToast.show(\"Weather data cached. Go offline to see the results.\");",
+							"value": "Anonymous Function",
+							"script": "file://event/neptune.restapi/GetWeather/ajaxSuccess.js",
+							"language": "javascript",
 							"translation": []
 						}
 					],
@@ -750,7 +751,7 @@
 		}
 	],
 	"componentInterface": [],
-	"ver": "24.06.06.1152",
+	"ver": "24.10.28.0952",
 	"application": "offline_example_app",
 	"title": "",
 	"description": "",

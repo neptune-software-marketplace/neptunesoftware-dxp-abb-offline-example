@@ -144,7 +144,7 @@
 	"documentation": [],
 	"name": "offline-example-picture",
 	"endpoint": "/api/entity",
-	"ver": "24.06.11.1113",
+	"ver": "24.10.25.1522",
 	"version": null,
 	"description": null,
 	"mediaType": "application/json",
